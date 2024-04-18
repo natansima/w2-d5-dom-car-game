@@ -363,7 +363,7 @@
     this.gameIsOver = false;
    ```
 
-   2. After the if/else statement in the update() method add:
+   2. After the for loop in the update() method add:
 
    ```
     if (this.lives === 0) {
