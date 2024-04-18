@@ -445,7 +445,7 @@
             constructor(gameScreen) {
                 super(
                     gameScreen,
-                    Math.floor(Math.random() \* 300 + 70),
+                    Math.floor(Math.random() * 300 + 70),
                     0,
                     100,
                     150,
