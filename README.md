@@ -100,7 +100,7 @@
 
 3.  script.js
 
-    1. Create a function called handleKeydown and place the following in the function body:
+    1. Create a function called handleKeydown that accepts an event as parameter and place the following in the function body:
 
     ```
     const key = event.key;
