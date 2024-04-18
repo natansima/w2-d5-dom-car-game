@@ -51,7 +51,7 @@
    2. Inside the function create a startButton variable to hold the HTML element with id start-button
    3. Initialize a variable called game.
    4. Add an eventListener to startButton that invokes a function called startGame()
-   5. Put the following inside the startGame function body:
+   5. Create the startGame function and put the following inside the startGame function body:
 
    ```
    console.log("start game");
