@@ -357,10 +357,12 @@
 
 1. game.js
 
-   1. Add the following property to the constructor:
+   1. Add the following properties to the constructor:
 
    ```
+    this.lives = 3;
     this.gameIsOver = false;
+    this.gameEndScreen = document.getElementById("game-end");
    ```
 
    2. After the for loop in the update() method add:
@@ -398,7 +400,7 @@
    }
    ```
 
-### // v8 - Refactor to add Classes and Subclasses
+### // v8 - BONUS - Refactor to add Classes and Subclasses
 
 1.  Inside ./js create a component.js
 2.  Add the file src in the HTML
@@ -515,7 +517,7 @@
         }
     ```
 
-### // v9 - Add score & lives UI
+### // v9 - BONUS - Add score & lives UI
 
 1.  Inside ./js create a scoreboard.js
 2.  Add the file src in the HTML
