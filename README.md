@@ -59,7 +59,7 @@
    game.start();
    ```
 
-### // v2 - Add Player
+### // v2 - Add Player & Key Events
 
 1.  player.js
 
