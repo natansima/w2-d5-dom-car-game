@@ -153,7 +153,7 @@
    this.directionY = 0;
    ```
 
-   2. Add the method move() to track the movement of the track, keep it in the game screen and update its position:
+   2. Add the method move() to track the movement of the player, keep it in the game screen and update its position:
 
    ```
    move() {
